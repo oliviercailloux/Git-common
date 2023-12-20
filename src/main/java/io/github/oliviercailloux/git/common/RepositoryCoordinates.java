@@ -10,7 +10,9 @@ import com.google.common.net.InternetDomainName;
  * reachable at the git uri {@code ssh://authority/owner/repo.git}. This format is used by such
  * hosts as <a href="https://github.com/">GitHub</a> or
  * <a href="https://bitbucket.org/">BitBucket</a>.
- * <p>This class also accepts authorities of the form {@code host:port} or using an IP address instead of a domain name.
+ * <p>
+ * This class also accepts authorities of the form {@code host:port} or using an IP address instead
+ * of a domain name.
  */
 public class RepositoryCoordinates {
   public static RepositoryCoordinates from(String authority, String owner, String repo) {
@@ -44,7 +46,8 @@ public class RepositoryCoordinates {
   }
 
   /**
-   * @deprecated This only identifies the entry given an authority, so I doubt that valid use cases exist for this concept.
+   * @deprecated This only identifies the entry given an authority, so I doubt that valid use cases
+   *             exist for this concept.
    */
   @Deprecated
   public String id() {
