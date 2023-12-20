@@ -124,9 +124,10 @@ import org.slf4j.LoggerFactory;
  *
  * <h2>Comparison</h2>
  *
- * Compared to {@code URIish} from JGit, this class is immutable, rejects relative path Git URLs, guarantees
- * convertibility to an absolute hierarchical URI, accepts URIs as input, will always return a
- * scheme when asked for one, provides clear round-trip guarantees (and possibly more differences).
+ * Compared to {@code URIish} from JGit, this class is immutable, rejects relative path Git URLs,
+ * guarantees convertibility to an absolute hierarchical URI, accepts URIs as input, will always
+ * return a scheme when asked for one, provides clear round-trip guarantees (and possibly more
+ * differences).
  *
  * <h2>More information</h2>
  *
