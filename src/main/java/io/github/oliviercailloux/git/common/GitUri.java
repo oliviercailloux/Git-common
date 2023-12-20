@@ -71,7 +71,7 @@ import org.slf4j.LoggerFactory;
  * a slash (for example, {@code file:/something/}) is a SCP URL designating some path (in this
  * example, {@code /something}) on the host named {@code file}. The factory method
  * {@link #fromGitUrl(String)} will indeed treat it as an SCP Git URL. However, such a string can
- * also be interpreted, following RFC 2396, as an absolute hierarchical URIs using the file scheme
+ * also be interpreted, following RFC 3986, as an absolute hierarchical URIs using the file scheme
  * with no authority (in this example, designating the absolute local path {@code /something}). The
  * (recommended) {@link #fromUri(URI)} factory method of this class indeed interprets it (IMHO, more
  * reasonably) in such a way. This is the only kind of input that is treated differently than Git

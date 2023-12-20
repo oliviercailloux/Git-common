@@ -11,8 +11,9 @@ import com.google.common.net.InternetDomainName;
  * hosts as <a href="https://github.com/">GitHub</a> or
  * <a href="https://bitbucket.org/">BitBucket</a>.
  * <p>
- * This class also accepts authorities of the form {@code host:port} or using an IP address instead
- * of a domain name.
+ * This class also accepts authorities of the form {@code host:port} or with a
+ * <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-3.2">userinfo</a> part or using an
+ * IP address instead of a domain name.
  */
 public class RepositoryCoordinates {
   public static RepositoryCoordinates from(String authority, String owner, String repo) {
