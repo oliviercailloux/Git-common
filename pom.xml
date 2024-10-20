@@ -6,14 +6,15 @@
 		<artifactId>pom</artifactId>
 		<version>0.0.21</version>
 	</parent>
-	<groupId>io.github.oliviercailloux.git</groupId>
-	<artifactId>common</artifactId>
+	<name>Git common</name>
+	<artifactId>git-common</artifactId>
 	<version>0.0.3-SNAPSHOT</version>
+	<url>https://github.com/oliviercailloux/Git-common/</url>
 	<dependencies>
 		<dependency>
 			<groupId>io.github.oliviercailloux</groupId>
 			<artifactId>jaris</artifactId>
-			<version>0.0.30</version>
+			<version>0.0.34</version>
 		</dependency>
 	</dependencies>
 </project>
