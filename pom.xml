@@ -8,7 +8,7 @@
 	</parent>
 	<name>Git common</name>
 	<artifactId>git-common</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<url>https://github.com/oliviercailloux/Git-common/</url>
 	<dependencies>
 		<dependency>
